@@ -7,3 +7,7 @@ var s1 = Singleton.Instance();
 var s2 = Singleton.Instance();
 
 if (s1 == s2) { Console.WriteLine("First instance of Singleton is == second instance of Singleton"); }
+
+var facade = new Facade();
+facade.WrapperOne();
+facade.WrapperTwo();
