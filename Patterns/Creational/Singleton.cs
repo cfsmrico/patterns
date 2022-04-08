@@ -1,5 +1,8 @@
 ﻿namespace Patterns
 {
+    /// <summary>
+    /// Ensure a class has only 1 globally-accessible instance
+    /// </summary>
     public class Singleton
     {
         private static readonly Singleton instance = new();

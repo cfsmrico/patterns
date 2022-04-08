@@ -1,13 +1,17 @@
 ﻿using Patterns;
 
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
 
+Console.WriteLine("Creational - Singleton");
+Console.WriteLine("======================");
 var s1 = Singleton.Instance();
 var s2 = Singleton.Instance();
 
 if (s1 == s2) { Console.WriteLine("First instance of Singleton is == second instance of Singleton"); }
+Console.WriteLine();
 
+Console.WriteLine("Structural - Facade");
+Console.WriteLine("======================");
 var facade = new Facade();
-facade.WrapperOne();
-facade.WrapperTwo();
+facade.Wrapper1();
+facade.Wrapper2();
+Console.WriteLine();
