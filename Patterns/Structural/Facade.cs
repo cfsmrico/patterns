@@ -1,4 +1,4 @@
-﻿namespace Patterns
+﻿namespace Patterns.Structural
 {
     /// <summary>
     /// Provide a unified interface to a set of interfaces in a subsytem.

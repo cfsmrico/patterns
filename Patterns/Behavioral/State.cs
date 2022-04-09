@@ -1,4 +1,4 @@
-﻿namespace Patterns
+﻿namespace Patterns.Behavioral
 {
     /// <summary>
     /// Allow an object to alter its behavior when its internal state changes

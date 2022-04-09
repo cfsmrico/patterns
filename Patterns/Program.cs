@@ -1,5 +1,7 @@
 ﻿using Patterns;
-
+using Patterns.Behavioral;
+using Patterns.Creational;
+using Patterns.Structural;
 
 Console.WriteLine("Creational - Singleton");
 Console.WriteLine("======================");

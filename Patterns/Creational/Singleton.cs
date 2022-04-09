@@ -1,4 +1,4 @@
-﻿namespace Patterns
+﻿namespace Patterns.Creational
 {
     /// <summary>
     /// Ensure a class has only 1 globally-accessible instance
