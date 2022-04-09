@@ -15,3 +15,14 @@ var facade = new Facade();
 facade.Wrapper1();
 facade.Wrapper2();
 Console.WriteLine();
+
+
+Console.WriteLine("Behavioral - State");
+Console.WriteLine("======================");
+var context = new Context(new ConcreteStateA());
+context.Request();
+context.Request();
+context.Request();
+context.Request();
+
+Console.ReadKey();
